@@ -1,0 +1,29 @@
+body{
+  background-color: #eaecef;
+}
+
+th{
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  background-color: lightblue;
+  text-align: center;
+  font-size: 30px;
+  font-family: helvetica;
+  font-weight: lighter;
+  box-shadow: inset 0px 0px 30px;
+}
+
+table{
+  margin: auto;
+  margin-top: 50px;
+}
+
+#decoder{
+  margin: auto;
+  margin-top: 30px;
+  background-color: lightgreen;
+  border: 1px solid black;
+  box-shadow: inset 0px 0px 15px;
+  display: block; /*to center button, must set to block-element*/
+}
