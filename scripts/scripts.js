@@ -21,12 +21,15 @@ $(document).ready(function(){
         if(tableHeader.length > 0){
           tableHeader.each(function(){
             thisTableRow.push($(this).text());
+            console.log(thisTableRow);
           });
             tableLetters.push(thisTableRow);
+            console.log(tableLetters);
+            return false;
           }//end if statment
       });
 
-      console.log(tableLetters);
+      //console.log(tableLetters);
 
     }//end decryptor
 
